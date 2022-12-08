@@ -25,6 +25,7 @@ function myButtonClicked() {
   if (day == "thursday" || day == "tuesday" || (age > 12 && age < 21)) {
     document.getElementById("answer").innerHTML = "You can get a discount yay"
   } else {
-    document.getElementById("answer").innerHTML = "You can't get a discount opps"
+    document.getElementById("answer").innerHTML =
+      "You can't get a discount opps"
   }
 }
